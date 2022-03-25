@@ -8,6 +8,7 @@ public:
 	~VulkanRender();
 private:
 	void InitWindow();
+	void InitVulkan();
 	void MainLoop();
 
 	VulkanData vkData;

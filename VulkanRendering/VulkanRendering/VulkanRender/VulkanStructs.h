@@ -5,4 +5,5 @@
 struct VulkanData
 {
 	GLFWwindow* window = nullptr;
+	VkInstance instance = VK_NULL_HANDLE;
 };
